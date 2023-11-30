@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta name="google-adsense-account" content="ca-pub-5051751169154862">
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>25º BPM</title>
+</head>
+
+<body>
+    <div class="foto">
+        <h2>SEJA BEM VINDO</h2>
+        <h3>"O POLICIAL MILITAR É O NOSSO MAIOR PATRIMÔNIO"</h3>
+        <img src="bpm.jpg" alt="FOTO BATALHÃO">
+
+    </div>
+    <h1>MARQUE A OPÇÃO ATUAL DO STATUS DE SERVIÇOS 190/CENTREX</h1>
+    <nav>
+        <div>
+            <h2>TELEFONE 190:</h2>
+            <button class="btn btn-sim" onclick="marcarComo('SIM')">SIM</button>
+            <button class="btn btn-nao" onclick="marcarComo('NÃO')">NÃO</button>
+            <button class="btn btn-parcial" onclick="marcarComo('PARCIAL')">PARCIAL</button>
+            <br><br><br>
+            <h2>TELEFONE CENTREX:</h2>
+            <button class="btn btn-sim" onclick="marcarComo('SIM')">SIM</button>
+            <button class="btn btn-nao" onclick="marcarComo('NÃO')">NÃO</button>
+            <button class="btn btn-parcial" onclick="marcarComo('PARCIAL')">PARCIAL</button>
+
+        </div>
+        <script>
+            function marcarComo(opcao) {
+                alert('Marcado como ' + opcao);
+                // Adicione aqui a lógica para processar a marcação no lado do cliente ou envie para o servidor.
+            }
+
+        </script>
+    </nav>
+
+    <div>
+        <h2>MARCANDO A OPÇÃO PARCIAL, FAÇA NA CAIXA DE TEXTO ABAIXO UM BREVE RELATO DO PROBLEMA.</h2>
+        <p>
+            <span class="blink"><i>OBS: AO TERMINAR CLICAR EM</i> <strong>ENVIAR</strong>
+            </span>
+        </p>
+        <br>
+    </div>
+    <form action="telematica.jpg.jpeg">
+        <textarea placeholder="descreva o problema aqui em poucas palavras" rows="7" cols="254" maxlength="500"
+            required></textarea>
+        <input type="submit" value="ENVIAR">
+    </form>
+</body>
+
+</html>

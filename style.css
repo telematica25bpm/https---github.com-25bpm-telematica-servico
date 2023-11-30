@@ -1,0 +1,68 @@
+img {
+    padding: 0%;
+    width: 80%;
+    height: 300px;
+    position: relative;
+
+}
+
+html {
+    width: 100%;
+    background-color: rgb(183, 183, 189);
+}
+
+h1 {
+    text-align: center;
+}
+
+.btn {
+
+    font-weight: bold;
+    display: inline-block;
+    width: 100px;
+    height: 30px;
+}
+
+.btn {
+    color: black;
+}
+
+.btn-sim {
+    background-color: green;
+}
+
+.btn-nao {
+    background-color: red;
+}
+
+.btn-parcial {
+    background-color: orange;
+}
+
+.blink {
+    animation: blink 1s steps(1, end) infinite;
+    color: red;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+div {
+    text-align: center;
+
+}
+textarea {
+    width: 100%;
+    padding: 0%;
+}
